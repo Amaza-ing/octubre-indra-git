@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Una página web sencilla creada con HTML, CSS y JavaScript."
+    />
+    <title>Mi página sencilla</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="card">
+      <span class="eyebrow">HTML · CSS · JavaScript</span>
+      <h1>Hola, mundo <span aria-hidden="true">✦</span></h1>
+      <p>Esta es una página sencilla, lista para que la hagas tuya.</p>
+      <button id="theme-toggle" type="button" aria-pressed="false">
+        Activar modo oscuro
+      </button>
+    </main>
+    <div class="clock" role="img" aria-label="Reloj analógico">
+      <span class="clock-hand clock-hand--hour" id="clock-hour"></span>
+      <span class="clock-hand clock-hand--minute" id="clock-minute"></span>
+      <span class="clock-hand clock-hand--second" id="clock-second"></span>
+      <span class="clock-pin"></span>
+    </div>
+  </body>
+</html>
