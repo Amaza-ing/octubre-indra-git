@@ -141,33 +141,61 @@ button:focus-visible {
 body.dark {
   color-scheme: dark;
   background:
-    radial-gradient(ellipse at 15% 15%, #28294e 0, transparent 42%),
-    radial-gradient(ellipse at 85% 85%, #342443 0, transparent 38%),
-    #171827;
-  color: #f3f3ff;
+    radial-gradient(ellipse at 15% 15%, #42331f 0, transparent 42%),
+    radial-gradient(ellipse at 85% 85%, #30261d 0, transparent 38%),
+    #171614;
+  color: #f4eee3;
+}
+
+body.dark .eyebrow {
+  color: #e9b85c;
+}
+
+body.dark h1 span {
+  color: #f0c36e;
+}
+
+body.dark button {
+  background: #d89b3c;
+  color: #21190e;
+}
+
+body.dark button:hover {
+  background: #edb957;
+}
+
+body.dark button:focus-visible {
+  outline-color: #f0c36e;
 }
 
 body.dark .card {
-  border-color: rgb(255 255 255 / 9%);
-  background: rgb(32 33 52 / 88%);
+  border-color: rgb(240 195 110 / 18%);
+  background: rgb(37 33 28 / 90%);
+  box-shadow: 0 24px 70px rgb(0 0 0 / 35%);
 }
 
 body.dark p {
-  color: #b9bbce;
+  color: #c9bead;
 }
 
 body.dark .clock {
-  border-color: rgb(255 255 255 / 12%);
+  border-color: rgb(240 195 110 / 24%);
   background:
-    radial-gradient(circle at 50% 12%, #a7a8bf 1px, transparent 2px),
-    radial-gradient(circle at 88% 50%, #a7a8bf 1px, transparent 2px),
-    radial-gradient(circle at 50% 88%, #a7a8bf 1px, transparent 2px),
-    radial-gradient(circle at 12% 50%, #a7a8bf 1px, transparent 2px),
-    rgb(32 33 52 / 88%);
+    radial-gradient(circle at 50% 12%, #b6a078 1px, transparent 2px),
+    radial-gradient(circle at 88% 50%, #b6a078 1px, transparent 2px),
+    radial-gradient(circle at 50% 88%, #b6a078 1px, transparent 2px),
+    radial-gradient(circle at 12% 50%, #b6a078 1px, transparent 2px),
+    rgb(37 33 28 / 92%);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
 }
 
 body.dark .clock-hand--hour {
-  background: #e1e0f5;
+  background: #f4eee3;
+}
+
+body.dark .clock-hand--minute,
+body.dark .clock-pin {
+  background: #e9b85c;
 }
 
 @media (prefers-reduced-motion: reduce) {
