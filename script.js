@@ -15,7 +15,6 @@ const clockHands = {
   second: document.querySelector("#clock-second"),
 };
 
-// documenta la función updateClock usando jsdoc
 /**
  * Actualiza la posición de las manecillas del reloj en función de la hora actual.
  */
