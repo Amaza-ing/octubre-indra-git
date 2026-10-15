@@ -24,6 +24,29 @@ body {
   transition: background-color 180ms ease, color 180ms ease;
 }
 
+body.page-vibrating {
+  animation: page-vibration 260ms ease-in-out;
+}
+
+@keyframes page-vibration {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-4px);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
+
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
 .card {
   width: min(100%, 520px);
   padding: clamp(32px, 8vw, 64px);
@@ -204,5 +227,9 @@ body.dark .clock-pin {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  body.page-vibrating {
+    animation: none;
   }
 }

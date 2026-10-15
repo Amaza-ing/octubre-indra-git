@@ -5,6 +5,7 @@ Este proyecto es una página web estática y sencilla hecha con HTML, CSS y Java
 ## Idioma y nombres
 
 - Escribe en inglés los nombres de variables, funciones, clases CSS, identificadores HTML y comentarios del código.
+- Documenta las funciones con jsdoc.
 - Mantén en español todo el texto visible para las personas, incluidos títulos, etiquetas, botones y mensajes.
 - Usa nombres claros y coherentes con los elementos existentes.
 
