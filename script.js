@@ -8,7 +8,6 @@ function handleThemeToggle() {
 
   const isDark = document.body.classList.toggle("dark");
 
-  themeToggle.setAttribute("aria-pressed", String(isDark));
   themeToggle.textContent = isDark
     ? "Activar modo claro"
     : "Activar modo oscuro";

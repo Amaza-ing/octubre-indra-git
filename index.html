@@ -12,13 +12,19 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="card">
+    <header class="site-header">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Mi página sencilla</span>
+      </a>
+      <button id="theme-toggle" type="button">
+        Activar modo oscuro
+      </button>
+    </header>
+    <main class="card" id="inicio">
       <span class="eyebrow">HTML · CSS · JavaScript</span>
       <h1>Hola, mundo <span aria-hidden="true">✦</span></h1>
       <p>Esta es una página sencilla, lista para que la hagas tuya.</p>
-      <button id="theme-toggle" type="button" aria-pressed="false">
-        Activar modo oscuro
-      </button>
     </main>
     <div class="clock" role="img" aria-label="Reloj analógico">
       <span class="clock-hand clock-hand--hour" id="clock-hour"></span>
