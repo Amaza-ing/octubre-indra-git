@@ -26,6 +26,8 @@ mi-web/
 ├── index.html
 ├── script.js
 ├── style.css
+├── tests/
+│   └── site.test.js
 └── README.md
 ```
 
@@ -38,3 +40,13 @@ mi-web/
 Abre `index.html` directamente en un navegador web. No es necesario instalar dependencias ni compilar el proyecto.
 
 Para personalizar la página, modifica el contenido en `index.html`, los estilos en `style.css` y el comportamiento en `script.js`.
+
+## Pruebas
+
+Ejecuta la suite localmente con Node.js 20 o superior:
+
+```sh
+node --test
+```
+
+GitHub Actions ejecuta estas pruebas al hacer `push`, abrir o actualizar un pull request, y también permite iniciarlas manualmente.
