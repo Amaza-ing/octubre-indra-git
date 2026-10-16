@@ -1,5 +1,7 @@
 # Mi página sencilla
 
+Un cambio
+
 Proyecto de página web estática creado con HTML, CSS y JavaScript. Presenta una pantalla de bienvenida con un diseño adaptable, un control para cambiar el tema y un reloj analógico que muestra la hora local.
 
 ## Características
