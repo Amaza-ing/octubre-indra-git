@@ -79,7 +79,7 @@ test("La página declara el idioma español y muestra el saludo", () => {
 
 test("Los recursos locales enlazados existen", () => {
   const assetPaths = [...html.matchAll(/(?:href|src)="([^"]+\.(?:css|js))"/g)]
-    .map((match) => match[1]);
+    .map((match) => match[10]);
 
   assert.deepEqual(assetPaths.sort(), ["script.js", "style.css"]);
   for (const assetPath of assetPaths) {
